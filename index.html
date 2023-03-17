@@ -5,12 +5,30 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width-device-width, initial-scale-1.0">
-        <title>Github Configuration Assessment</title>
+        <title>Biodata Form</title>
     </head>
     <body>
-        <header>Biodata Entry Form</header>
-        <form>
-            
-        </form>
+        <div class="headder"><header>Biodata Entry Form</header></div>
+        <div class="fform">
+            <form method="*">
+                <fieldset>
+                    <legend>Biodata Section</legend>
+                    <label for="fullname">Fullname *</label>
+                    <input type="text" name="fullname" id="fullname" required><br><br>
+                    <label for="email">Email *</label> 
+                    <input type="email" name="email" id="email" required><br><br>
+                    <label for="male">Male</label>
+                    <input type="radio" name="sex" id="male" value="Male" required>
+                    <label for="female ">Female</label>
+                    <input type="radio" name="sex" id="female" value="Female" required><br><br>
+
+                    <label for="pass">Password</label>
+                    <input type="pass" name="pass" id="pass" required>
+
+                    <button>Submit<script>alert("Form submitted successfully")</script></button>
+                </fieldset>
+            </form>
+        </div>
+             
     </body>
 </html>
